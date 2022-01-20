@@ -7,10 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-
-		5E555C0D2413F4C50049A1A2 /* VideoPackage.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* VideoPackage.m */; };
-		F4FF95D7245B92E800C19C63 /*  VideoPackage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FF95D6245B92E800C19C63 /*  VideoPackage.swift */; };
-
+		C5BD0CD12799574A0068C05F /* ModelDataHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5BD0CC1279957480068C05F /* ModelDataHandler.swift */; };
+		C5BD0CD22799574A0068C05F /* AquantVideoModule.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BD0CC2279957480068C05F /* AquantVideoModule.m */; };
+		C5BD0CD32799574A0068C05F /* ComponentExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5BD0CC3279957480068C05F /* ComponentExtension.swift */; };
+		C5BD0CD42799574A0068C05F /* CustomVideoCapturer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5BD0CC4279957480068C05F /* CustomVideoCapturer.swift */; };
+		C5BD0CD52799574A0068C05F /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5BD0CC5279957490068C05F /* Bundle.swift */; };
+		C5BD0CD62799574A0068C05F /* CallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5BD0CCC2799574A0068C05F /* CallViewController.swift */; };
+		C5BD0CD72799574A0068C05F /* VideoCapturer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5BD0CCD2799574A0068C05F /* VideoCapturer.swift */; };
+		C5BD0CD82799574A0068C05F /* Backend.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5BD0CCE2799574A0068C05F /* Backend.swift */; };
+		C5BD0CD92799574A0068C05F /* LoadVideoController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BD0CCF2799574A0068C05F /* LoadVideoController.m */; };
+		C5BD0CDA2799574A0068C05F /* LoadVideoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5BD0CD02799574A0068C05F /* LoadVideoController.swift */; };
+		F4FF95D7245B92E800C19C63 /* VideoPackage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FF95D6245B92E800C19C63 /* VideoPackage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,11 +34,24 @@
 
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libVideoPackage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libVideoPackage.a; sourceTree = BUILT_PRODUCTS_DIR; };
-
 		B3E7B5891CC2AC0600A0062D /* VideoPackage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoPackage.m; sourceTree = "<group>"; };
+		C5BD0CC1279957480068C05F /* ModelDataHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelDataHandler.swift; sourceTree = "<group>"; };
+		C5BD0CC2279957480068C05F /* AquantVideoModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AquantVideoModule.m; sourceTree = "<group>"; };
+		C5BD0CC3279957480068C05F /* ComponentExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComponentExtension.swift; sourceTree = "<group>"; };
+		C5BD0CC4279957480068C05F /* CustomVideoCapturer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomVideoCapturer.swift; sourceTree = "<group>"; };
+		C5BD0CC5279957490068C05F /* Bundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bundle.swift; sourceTree = "<group>"; };
+		C5BD0CC7279957490068C05F /* VideoCall.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = VideoCall.storyboard; sourceTree = "<group>"; };
+		C5BD0CC8279957490068C05F /* ColorAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ColorAssets.xcassets; sourceTree = "<group>"; };
+		C5BD0CC9279957490068C05F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C5BD0CCA2799574A0068C05F /* labelmap.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = labelmap.txt; sourceTree = "<group>"; };
+		C5BD0CCB2799574A0068C05F /* detect.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = detect.tflite; sourceTree = "<group>"; };
+		C5BD0CCC2799574A0068C05F /* CallViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallViewController.swift; sourceTree = "<group>"; };
+		C5BD0CCD2799574A0068C05F /* VideoCapturer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCapturer.swift; sourceTree = "<group>"; };
+		C5BD0CCE2799574A0068C05F /* Backend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Backend.swift; sourceTree = "<group>"; };
+		C5BD0CCF2799574A0068C05F /* LoadVideoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadVideoController.m; sourceTree = "<group>"; };
+		C5BD0CD02799574A0068C05F /* LoadVideoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadVideoController.swift; sourceTree = "<group>"; };
 		F4FF95D5245B92E700C19C63 /* VideoPackage-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VideoPackage-Bridging-Header.h"; sourceTree = "<group>"; };
 		F4FF95D6245B92E800C19C63 /* VideoPackage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPackage.swift; sourceTree = "<group>"; };
-
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +76,34 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
-
+				C5BD0CC2279957480068C05F /* AquantVideoModule.m */,
+				C5BD0CCE2799574A0068C05F /* Backend.swift */,
+				C5BD0CC5279957490068C05F /* Bundle.swift */,
+				C5BD0CCC2799574A0068C05F /* CallViewController.swift */,
+				C5BD0CC3279957480068C05F /* ComponentExtension.swift */,
+				C5BD0CC4279957480068C05F /* CustomVideoCapturer.swift */,
+				C5BD0CCF2799574A0068C05F /* LoadVideoController.m */,
+				C5BD0CD02799574A0068C05F /* LoadVideoController.swift */,
+				C5BD0CC1279957480068C05F /* ModelDataHandler.swift */,
+				C5BD0CC6279957490068C05F /* Resources */,
+				C5BD0CCD2799574A0068C05F /* VideoCapturer.swift */,
 				F4FF95D6245B92E800C19C63 /* VideoPackage.swift */,
 				B3E7B5891CC2AC0600A0062D /* VideoPackage.m */,
 				F4FF95D5245B92E700C19C63 /* VideoPackage-Bridging-Header.h */,
-
 				134814211AA4EA7D00B7C361 /* Products */,
 			);
+			sourceTree = "<group>";
+		};
+		C5BD0CC6279957490068C05F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C5BD0CC7279957490068C05F /* VideoCall.storyboard */,
+				C5BD0CC8279957490068C05F /* ColorAssets.xcassets */,
+				C5BD0CC9279957490068C05F /* Assets.xcassets */,
+				C5BD0CCA2799574A0068C05F /* labelmap.txt */,
+				C5BD0CCB2799574A0068C05F /* detect.tflite */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,10 +163,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-
+				C5BD0CD22799574A0068C05F /* AquantVideoModule.m in Sources */,
+				C5BD0CD52799574A0068C05F /* Bundle.swift in Sources */,
+				C5BD0CD82799574A0068C05F /* Backend.swift in Sources */,
+				C5BD0CD92799574A0068C05F /* LoadVideoController.m in Sources */,
+				C5BD0CD12799574A0068C05F /* ModelDataHandler.swift in Sources */,
+				C5BD0CD72799574A0068C05F /* VideoCapturer.swift in Sources */,
+				C5BD0CD42799574A0068C05F /* CustomVideoCapturer.swift in Sources */,
+				C5BD0CDA2799574A0068C05F /* LoadVideoController.swift in Sources */,
 				F4FF95D7245B92E800C19C63 /* VideoPackage.swift in Sources */,
-				B3E7B58A1CC2AC0600A0062D /* VideoPackage.m in Sources */,
-
+				C5BD0CD32799574A0068C05F /* ComponentExtension.swift in Sources */,
+				C5BD0CD62799574A0068C05F /* CallViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,7 +223,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -218,7 +266,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -238,11 +286,9 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = VideoPackage;
 				SKIP_INSTALL = YES;
-
 				SWIFT_OBJC_BRIDGING_HEADER = "VideoPackage-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-
 			};
 			name = Debug;
 		};
@@ -259,10 +305,8 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = VideoPackage;
 				SKIP_INSTALL = YES;
-
 				SWIFT_OBJC_BRIDGING_HEADER = "VideoPackage-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
-
 			};
 			name = Release;
 		};
