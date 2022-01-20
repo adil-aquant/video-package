@@ -20,3 +20,7 @@ const VideoPackage = NativeModules.VideoPackage
 export function multiply(a: number, b: number): Promise<number> {
   return VideoPackage.multiply(a, b);
 }
+
+export function loadCallWithId(callId:String,mute:Boolean) {
+  return VideoPackage.loadCallViewController(callId,mute)
+}
