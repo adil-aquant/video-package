@@ -1,5 +1,10 @@
 @objc(VideoPackage)
 class VideoPackage: NSObject {
+    
+    @objc
+    public static func requiresMainQueueSetup() -> Bool {
+      return true
+    }
     var callActive = false
     @objc(multiply:withB:withResolver:withRejecter:)
     func multiply(a: Float, b: Float, resolve:RCTPromiseResolveBlock,reject:RCTPromiseRejectBlock) -> Void {
