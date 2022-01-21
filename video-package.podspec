@@ -18,6 +18,7 @@ Pod::Spec.new do |s|
   s.dependency "React-Core"
   s.resource = 'ios/Resources/*.{storyboard,xcassets,png,jpg,jpeg}'
   s.swift_version = "5.0"
+  s.static_framework = true
   s.resource_bundles = {
      'AquantVideoModule' => ['ios/Resources/*.{storyboard,xcassets,png,jpg,jpeg}']
    }

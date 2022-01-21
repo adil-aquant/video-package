@@ -7,10 +7,6 @@ import { loadCallWithId } from 'video-package';
 export default function App() {
   const [result, setResult] = React.useState<number | undefined>();
 
-  React.useEffect(() => {
-    multiply(3, 7).then(setResult);
-  }, []);
-
   return (
     <View style={styles.container}>
       <Button
