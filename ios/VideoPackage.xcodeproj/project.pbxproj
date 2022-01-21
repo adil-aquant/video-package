@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C59FC461279A873200381877 /* AquantVideoModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59FC460279A873200381877 /* AquantVideoModule.swift */; };
 		C5BD0CD12799574A0068C05F /* ModelDataHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5BD0CC1279957480068C05F /* ModelDataHandler.swift */; };
 		C5BD0CD22799574A0068C05F /* AquantVideoModule.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BD0CC2279957480068C05F /* AquantVideoModule.m */; };
 		C5BD0CD32799574A0068C05F /* ComponentExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5BD0CC3279957480068C05F /* ComponentExtension.swift */; };
@@ -35,6 +36,7 @@
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libVideoPackage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libVideoPackage.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3E7B5891CC2AC0600A0062D /* VideoPackage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoPackage.m; sourceTree = "<group>"; };
+		C59FC460279A873200381877 /* AquantVideoModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AquantVideoModule.swift; sourceTree = "<group>"; };
 		C5BD0CC1279957480068C05F /* ModelDataHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelDataHandler.swift; sourceTree = "<group>"; };
 		C5BD0CC2279957480068C05F /* AquantVideoModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AquantVideoModule.m; sourceTree = "<group>"; };
 		C5BD0CC3279957480068C05F /* ComponentExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComponentExtension.swift; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
+				C59FC460279A873200381877 /* AquantVideoModule.swift */,
 				C5BD0CC2279957480068C05F /* AquantVideoModule.m */,
 				C5BD0CCE2799574A0068C05F /* Backend.swift */,
 				C5BD0CC5279957490068C05F /* Bundle.swift */,
@@ -173,6 +176,7 @@
 				C5BD0CDA2799574A0068C05F /* LoadVideoController.swift in Sources */,
 				F4FF95D7245B92E800C19C63 /* VideoPackage.swift in Sources */,
 				C5BD0CD32799574A0068C05F /* ComponentExtension.swift in Sources */,
+				C59FC461279A873200381877 /* AquantVideoModule.swift in Sources */,
 				C5BD0CD62799574A0068C05F /* CallViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
