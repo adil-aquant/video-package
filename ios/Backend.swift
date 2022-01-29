@@ -141,9 +141,10 @@ struct NetworkErrorDto : Decodable {
 }
 
 public class Constants {
+    public static var SERVER_URL : String!
     public static let SERVER_URL1                     = "http://192.168.7.80:7070"
     public static let SERVER_URL2                     = "https://aq-smartcollab.herokuapp.com"
-    public static let SERVER_URL                      = "https://video-triage-staging.herokuapp.com"//"https://servicehero-us-production.herokuapp.com"//"https://go.servicehero.ai"
+    //public static let SERVER_URL                      = "https://video-triage-staging.herokuapp.com"//"https://servicehero-us-production.herokuapp.com"//"https://go.servicehero.ai"
     
     public static let JOIN_SESSION:String             = "/session/join"
     public static let GUEST:String                    = "/guest"

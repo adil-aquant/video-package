@@ -86,3 +86,16 @@ extension UIColor {
         return String(format:"#%06x", rgb)
     }
 }
+
+extension UIAlertController {
+    class func showErrorAlert(errorMessage:String,completion: (() -> Void)? = nil) {
+        DispatchQueue.main.async {
+            let alertBox = UIAlertController(title: "ERROR", message: errorMessage, preferredStyle: UIAlertController.Style.alert)
+            alertBox.addAction(UIAlertAction(title: "OK", style: .default, handler: { (action: UIAlertAction!) in
+                alertBox.dismiss(animated: true, completion: nil)
+                completion?()
+            }))
+            UIApplication.topViewController()?.present(alertBox, animated: true, completion: nil)
+        }
+    }
+}

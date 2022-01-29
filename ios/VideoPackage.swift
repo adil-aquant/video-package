@@ -1,3 +1,5 @@
+import Foundation
+import UIKit
 @objc(VideoPackage)
 class VideoPackage: NSObject {
     
@@ -12,8 +14,14 @@ class VideoPackage: NSObject {
     }
    
    
-    @objc func loadCallViewController(_ callId:NSString, mute:Bool) {
+    @objc func loadCallViewController(_ callId:NSString, mute:Bool,serverUrl:NSString) {
       DispatchQueue.main.async {
+          //Validate the URL
+          guard URL(string: serverUrl as String) != nil else {
+               UIAlertController.showErrorAlert(errorMessage: "Invalid URL")
+               return
+           }
+        Constants.SERVER_URL = serverUrl as String
         let controller = UIStoryboard(name: "VideoCall", bundle: Bundle._module).instantiateViewController(withIdentifier: "CallViewController") as! CallViewController
         controller.modalPresentationStyle = .overCurrentContext
         controller.initialize(callId: callId as String, muteCall: mute)

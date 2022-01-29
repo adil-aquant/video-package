@@ -16,11 +16,11 @@ Pod::Spec.new do |s|
   s.source_files = "ios/**/*.{h,m,mm,swift}"
 
   s.dependency "React-Core"
-  s.resource = 'ios/Resources/*.{storyboard,xcassets,png,jpg,jpeg}'
+  s.resource = 'ios/Resources/*.{storyboard,xcassets,png,jpg,jpeg,tflite,txt}'
   s.swift_version = "5.0"
   s.static_framework = true
   s.resource_bundles = {
-     'AquantVideoModule' => ['ios/Resources/*.{storyboard,xcassets,png,jpg,jpeg}']
+     'AquantVideoModule' => ['ios/Resources/*.{storyboard,xcassets,png,jpg,jpeg,tflite,txt}']
    }
 
   s.dependency "React-Core"

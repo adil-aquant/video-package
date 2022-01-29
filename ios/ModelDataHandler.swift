@@ -239,6 +239,7 @@ class ModelDataHandler: NSObject {
                                 className: outputClass,
                                 rect: newRect,
                                 displayColor: colorToAssign)
+        print(inference)
         if inference.className == "laptop" || inference.className == "cell phone" || inference.className == "tv" {
       resultsArray.append(inference)
         }

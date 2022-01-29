@@ -1,7 +1,5 @@
 import * as React from 'react';
-
 import { StyleSheet, View, Button } from 'react-native';
-import { multiply } from 'video-package';
 import { loadCallWithId } from 'video-package';
 
 export default function App() {
@@ -11,7 +9,7 @@ export default function App() {
     <View style={styles.container}>
       <Button
         title='Call'
-        onPress={() => loadCallWithId('rya8PwW1',true) } 
+        onPress={() => loadCallWithId('vOD20Rnu',true,'https://video-triage-staging.herokuapp.com') } 
       />
    </View>
 );
