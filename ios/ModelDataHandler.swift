@@ -92,7 +92,7 @@ class ModelDataHandler: NSObject {
     let modelFilename = modelFileInfo.name
 
     // Construct the path to the model file.
-    guard let modelPath = Bundle.main.path(
+      guard let modelPath = Bundle._module.path(
       forResource: modelFilename,
       ofType: modelFileInfo.extension
     ) else {
@@ -257,7 +257,7 @@ class ModelDataHandler: NSObject {
   private func loadLabels(fileInfo: FileInfo) {
     let filename = fileInfo.name
     let fileExtension = fileInfo.extension
-    guard let fileURL = Bundle.main.url(forResource: filename, withExtension: fileExtension) else {
+    guard let fileURL = Bundle._module.url(forResource: filename, withExtension: fileExtension) else {
       fatalError("Labels file not found in bundle. Please add a labels file with name " +
                    "\(filename).\(fileExtension) and try again.")
     }
