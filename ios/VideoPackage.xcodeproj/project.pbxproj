@@ -36,6 +36,7 @@
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libVideoPackage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libVideoPackage.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3E7B5891CC2AC0600A0062D /* VideoPackage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoPackage.m; sourceTree = "<group>"; };
+		C55E7C8627E84B6500B23EAB /* WellSett.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = WellSett.bundle; sourceTree = "<group>"; };
 		C59FC460279A873200381877 /* AquantVideoModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AquantVideoModule.swift; sourceTree = "<group>"; };
 		C5BD0CC1279957480068C05F /* ModelDataHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelDataHandler.swift; sourceTree = "<group>"; };
 		C5BD0CC2279957480068C05F /* AquantVideoModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AquantVideoModule.m; sourceTree = "<group>"; };
@@ -79,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				C59FC460279A873200381877 /* AquantVideoModule.swift */,
+				C55E7C8627E84B6500B23EAB /* WellSett.bundle */,
 				C5BD0CC2279957480068C05F /* AquantVideoModule.m */,
 				C5BD0CCE2799574A0068C05F /* Backend.swift */,
 				C5BD0CC5279957490068C05F /* Bundle.swift */,
