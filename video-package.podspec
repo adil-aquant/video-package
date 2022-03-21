@@ -24,6 +24,6 @@ Pod::Spec.new do |s|
    }
 
   s.dependency "React-Core"
-  s.dependency 'OpenTok', '~> 2.21'
-  s.dependency 'TensorFlowLiteSwift', '~> 2.6.0'
+  s.dependency 'OpenTok', '~> 2.21.3'
+  s.dependency 'TensorFlowLiteSwift', '~> 2.7.0'
 end
